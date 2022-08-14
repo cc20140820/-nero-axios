@@ -1,0 +1,29 @@
+{
+  "name": "@nero/axios",
+  "version": "0.1.0",
+  "description": "A request tool based on axios.",
+  "main": "lib/index.js",
+  "types": "./lib/index.d.ts",
+  "files": [
+    "lib",
+    "CHANGELOG.md"
+  ],
+  "scripts": {
+    "dev": "rollup -wc rollup.config.js",
+    "build": "rollup -c rollup.config.js",
+    "prepublishOnly": "pnpm build"
+  },
+  "engines": {
+    "node": ">=16.13.0"
+  },
+  "license": "UNLICENSED",
+  "dependencies": {
+    "axios": "0.27.2",
+    "notyf": "3.10.0",
+    "qs": "^6.11.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.7.3",
+    "@types/qs": "^6.9.7"
+  }
+}

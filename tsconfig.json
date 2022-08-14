@@ -1,0 +1,16 @@
+{
+  "extends": "./tsconfig.root.json",
+  "compilerOptions": {
+    "outDir": "./lib",
+    "declaration": true,
+    "declarationDir": "./",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true
+  },
+  "include": [
+    "./src"
+  ],
+  "exclude": [
+    "./lib"
+  ]
+}
